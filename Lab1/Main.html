@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="Russia">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing page</title>
+    <link rel="stylesheet" type="text/css" href="Style.css" media="screen"/>
+</head>
+<body>
+    <header class="header">
+        <div class="h-content">
+                <h1 align="left"> Кампания ЭкспертЪ <br /> 
+                Оценка недвижимости </h1>
+            <nav class="h-nav">
+                <ul class="h-list">
+                    <li class="h-element">
+                        <a href="#"> Главная </a>
+                    </li>
+                    <li class="h-element">
+                        <a href="#feedback"> Подать заявку </a>
+                    </li>
+                    <li class="h-element">
+                        <a href="#company"> О нас </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="main-content">
+            <img src="1111.jpg" class="product" alt="real estate">
+            <div class="description">
+                <h2>Полноценная оценка недвижимости от кампании ЭкспертЪ</h2>
+                <ul class="h-l">
+                    <li class="descript-elem">
+                        Эксперты качественно и аккуратно оценят вашу недвижимость меньше чем за 2 часа 
+                    </li>
+                    <li class="descript-elem">
+                        Цена: 2900 рублей
+                    </li>
+                </ul>
+                <div class="button-wrapper">
+                    <button onclick="location.href='#feedback'" class="order" type="button">Оценить недвижимость</button>
+                    <span class="phone-number">
+                        <a href="" class="phone">8 (981) 780-90-33</a>
+                    </span>
+                </div>
+            </div>
+        </section>
+       
+        <section id="feedback" class="feedback">
+            <h1 align="center">Подать заявку</h1>
+            <form method="post" action="#feedback" class="form">
+                <label for="form-name">Ваше имя:</label>
+                <input type="text">
+                <label for="form-email">Ваша почта: </label>
+                <input type="text" id="form-email" name="email">
+                <label for="form-message">Сообщение: </label>
+                <input type="text" id="form-message" name="message">
+            </form>
+            <button type="button">Отправить</button>
+        </section>
+    </main>
+   <hr />
+    <footer class="footer" id="company">
+        <section class="about">
+            <h1>
+                О нас
+            </h1>
+            <ul class="f-list">
+                <li class="f-element">
+                    Адрес: Ботанический переулок дом 5, г. Москва
+                </li>
+                <li class="f-element">
+                    Телефон: 8(800)111-23-12
+                </li>
+                <li class="f-element">
+                    Почта: keytoyourway@mail.ru
+                </li>
+            </ul>
+        </section>
+    </footer>
+</body>
+</html>
